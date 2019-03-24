@@ -1,0 +1,132 @@
+body {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    /* background-color: #474e5d;
+    
+    color: #ffffff; */
+    background-image: url("../images/mountains.jpeg");
+    background-size: 100% 100%;
+
+}
+
+.bg-2 {
+    /* background-color: teal; */
+    /* Teal Background */
+    /* color: #ffffff; */
+    background-image: url("../images/backgroundabout.png");
+
+    background-size: cover;
+}
+
+.bg-3 {
+    /* background-color: #eee; */
+    /* White Background*/
+    /* color: #555555; */
+    background-image: url("http://www.metro-check.com/wp-content/uploads/2018/01/pexels-photo-733856.jpg");
+    background-size: cover;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    letter-spacing: normal;
+    background-color: #23415C;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+    color: #FFF;
+}
+.navbar-default .navbar-nav li a {
+    color: #D5D5D5;
+}
+
+.white {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration: none;
+    color: lightblue;
+}
+
+.desc {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.siteContainer {
+    margin-bottom: 20px;
+}
+
+.btn-equal{
+    height: 100%;
+}
+.card {display:inline-block;}
+.card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    margin-top: auto;
+  }
+
+  hr {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background-color:#666;
+    opcaity: 0.5;
+    }
